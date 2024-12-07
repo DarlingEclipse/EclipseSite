@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <title>DarlingEclipse Programming</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../public/style.css" />
+  <!--<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>-->
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
+
+  <!-- Header -->
+  <header id="header">
+    <h1>Exodus</h1>
+    <p>For modifications, editing, and randomizing Transformers.</p>
+  </header>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Content -->
+    <section id="content" class="main">
+
+      <!-- Purpose, Mission, Vision -->
+      <section>
+        <p>Transformers (2004) (PS2), like many games, uses proprietary file formats. Our original goal with Exodus was to provide a tool that allows us to either edit these formats directly or convert them to and from more conventional formats. Now, Exodus is also able to interface with <a href="SELF/SELF.html">SELF</a> to apply mods to the game, edit key files to <a href="Exodus/Randomizer.html">randomize</a> item placemets and stats, and rebuild the ISO. Moving forward, we have three long-term goals in mind for the Exodus project:</p>
+        <ol>
+          <li>Add more options and mods for the Randomizer</li>
+          <li>Implement solved formats that are not currently in Exodus (for example catching up the VBIN system to match <a href="bbatts/VBA.html">the VBIN Blender Addon</a>)</li>
+          <li>Research the remaining file formats</li>
+        </ol>
+        </ul>
+      </section>
+      <hr />
+      <!-- Downloads -->
+      <section>
+        <h2>Downloads</h2>
+        <p><a href="ExodusRelease.7z" class="icon brands fa-windows alt"><span class="label">Windows</span></a>
+          <!--<a href="#" class="icon brands fa-macintosh alt"><span class="label">Mac</span></a>
+          <a href="#" class="icon brands fa-linux alt"><span class="label">Linux</span></a></p> -->
+        <p>Click <a href="#">here</a> to download the most recent version of Exodus.</p>
+      </section>
+      <hr />
+
+      <!-- File formats -->
+      <section>
+        <h2>File Formats</h2>
+        <p>Below are the different file formats and their progress.</p>
+        <table class="alt">
+          <thead>
+          <tr>
+            <th>Format</th>
+            <th>Description</th>
+            <th>Documentation</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>TMD/BMD, TDB/BDB</td>
+            <td>Database files. Exodus is almost capable of full editing for these files. Exodus is able to edit existing files or create new ones from scratch. The only unsupported fields are Vector Arrays.</td>
+            <td><a href="#">Documentation</a></td>
+          </tr>
+          <tr>
+            <td>VBIN, .MESH/GRAPH.VBIN</td>
+            <td>Model files. Can be converted to STL or DAE. For additional functionality, animation features, and more polished level models, see the <a href="">VBIN Blender addon</a> by bbatts.</td>
+            <td><a href="#">Documentation</a></td>
+          </tr>
+          <tr>
+            <td>ITF</td>
+            <td>Texture files. Can be converted to most image formats. New images can be exported to the original ITF format, though this currently has some bugs.</td>
+            <td><a href="#">Documentation</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer id="footer">
+    <section>
+      <h2>Contact Us</h2>
+      <dl class="alt">
+        <dt>Email</dt>
+        <dd><a href="mailto: darlingeclipseprogramming@protonmail.com">darlingeclipseprogramming@protonmail.com</a></dd>
+      </dl>
+      <ul class="icons">
+        <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon brands fa-discord alt"><span class="label">Discord</span></a></li>
+        <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+      </ul>
+    </section>
+    <p>Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    <!--<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
+  </footer>
+</div>
+</body>
+</html>
