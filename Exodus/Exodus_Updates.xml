@@ -5,7 +5,7 @@
         <description>This updater uses Winsparkle</description>
         <language>en</language>
         <item>
-            <title>Version 0.7.3.8</title>
+            <title>Version 0.7.4.0</title>
             <sparkle:releaseNotesLink>
                 https://darlingeclipseprogramming.com/Exodus/PatchNotes.html
             </sparkle:releaseNotesLink>
@@ -13,7 +13,7 @@
             <enclosure url="https://darlingeclipseprogramming.com/Exodus/ExodusUpdater.exe"
                        sparkle:dsaSignature="MDwCHA1HBixNpg+7MDWw7IS8hoyt7h98xChqm8YwTXcCHAt9tZMjAUbn8rLMHozV
 yeUwRh11cJJhouZ7EU0="
-                       sparkle:version="0.7.3.8"
+                       sparkle:version="0.7.4.0"
                        length="0"
                        type="application/octet-stream" />
         </item>
