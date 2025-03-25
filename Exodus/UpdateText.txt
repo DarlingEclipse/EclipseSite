@@ -1,4 +1,5 @@
 If you're updating from version 0.6.x.x to version 0.7.1.x or above, the auto-updater will not give you all the files you need. Download the most recent ZIP from https://DarlingEclipseProgramming.com
 
+Update 0.7.4.1: Bugfix for Minicons being set to not display in HQ.
 Update 0.7.4.1: Re-enabled Autobot and Minicon stat randomizations. Added level order randomization.
 Update 0.7.4.0: Rewrite of the Randomizer - this will remove some options, but equivalent options and more will be added in the coming weeks
